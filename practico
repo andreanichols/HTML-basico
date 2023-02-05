@@ -1,0 +1,91 @@
+<!--HTML 
+Lenguaje marcado de hipertexto 
+es el codigo para describir la presentasion de los elementos de la pagina web
+Ayuda a estructurar una pagina web con texto, imagenes y botones-->
+
+<!--Los elementos de Html 
+    se conforma por la etiqueta que viene siendo la representacion de un elemento html 
+este se divide en 2 partes apertura y cierre, otro elemento es el contenido que corresponde al texot o elemento encerrado 
+por la etiqueta-->
+
+<!-- ejemplo
+    apertura           cierre
+    <h1>   contenido   </h1>
+-->
+
+<!-- Html semantico
+     consiste en que cada elementos tenga su propia etiqueta que lo 
+defina correctamente, reforzando la informacion que se encuentre en la pagina web
+-->
+
+<!-- Etiquetas semanticas 
+    <header> define el encabezado
+    <nav> define una barra de navegacion que incluye en laces
+    <section> define una seccion de la pagina
+    <footer> define un pie de pagina o de seccion
+    <article> define un articulo el cual puede tener su propio 
+        encabezado, navegacion, seccion o pie de pagina 
+-->
+
+
+<!--proyecto practicando con HTML 
+creando una pequeña pagina web-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+     LAS MASCOTAS
+    </header>
+    <h4> Que mascotas son recomendables en el hogar </h4>
+<section>
+    <div>
+        <img src="https://media.istockphoto.com/id/1296353202/es/foto/grupo-de-mascotas-posando-alrededor-de-un-collie-fronterizo-perro-gato-hur%C3%B3n-conejo-p%C3%A1jaro-pez.jpg?s=612x612&w=0&k=20&c=L2IMPfImJLLGeXTYUIpoFJ9JrnOjHvxgzr-sYbtAZaQ=">
+    </div>
+</section>
+<section>
+    <p>
+        Exiten muchas variedades de mascotas que sobre todo podemos adoptar en esos estan:
+    </p>
+</section>
+<nav>
+    <ul>
+        <li>Perro</li>
+        <li>Gatos</li>
+        <li>Peces</li>
+        <li>Periquitos</li>
+        <li>entre otros</li>
+    </ul>
+</nav>
+<section>
+    <p>El tener una mascota trae muchos beneficios en este enlace te dira mas de ellos
+    </p>
+<a href="https://www.iberdrola.com/compromiso-social/beneficios-de-tener-mascotas#:~:text=Las%20mascotas%20pueden%20disminuir%20el,dedicado%20a%20la%20investigaci%C3%B3n%20m%C3%A9dica.">Aprende de esos beneficios</a>
+</section>
+<section>
+    <div>
+        <h1>Mascotas mas comunes
+        </h1>
+        <ul>
+            <Li>Perros</Li>
+            <p>Como es conocido el perro es el mejor amigo del hombre, es una de as mascotas mas comunes de un hogar sobre todo familiar</p>
+            <Li>Gatos</Li>
+            <p>En el segundo puesto tenemos este animalito muchos ma independiente pero tambien es muy familiar </p>            
+        </ul>
+    </div>
+</section>
+<section>
+    <p>ES RECOMENDABLE ADOPTAR ANIMALE DOMESTICO Y NO EXOTICOS YA QUE MUCHOS DE ELLOS DEBERIAN ESTAR EN SU HABITAD NATURAL
+    </p>
+</section>
+</body>
+
+</html>
+
